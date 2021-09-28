@@ -46,3 +46,38 @@ footer {
         display: none;
     }
 }
+
+.fuenteMerienda {
+        font-family: "Merienda One";
+        text-align: left;
+        font-style: normal;
+        font-size: large;
+        color: rgba(209, 136, 0, 0.87);
+    }
+
+.fuenteRubik {
+        font-family: "Rubik";
+        text-align: left;
+        font-style: normal;
+        font-size: large;
+        color: rgba(187, 122, 3, 0.87);
+    }
+
+.aside{
+  width: 40%;
+  padding-left: 30px;
+  margin-left: 50px;
+  float: right;
+  font-style: "Merienda One";
+  background-color: rgb(223, 37, 37);
+}
+
+.bside{
+    width: 50%;
+    float: left;
+    font-style: "Merienda One";
+ }
+
+ .efectoimagen:hover {
+     filter: saturate(250%);
+ }
