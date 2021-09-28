@@ -1,13 +1,26 @@
 /* Remove the navbar's default margin-bottom and rounded borders */
 
 .navbar {
-    margin-bottom: 0;
-    border-radius: 0;
+    margin: 3px;
+    padding: 0;
+    border: 0;
+    height: 80px;
+    background: rgb(140, 4, 4);
 }
 
 #logo {
-    width: 40px;
-    height: 64px;
+    width: 60px;
+    height: 80px;
+}
+
+#boton_registro {
+    background-color: rgb(255, 255, 255);
+    border: #000 solid 1px;
+    width: auto;
+    height: 25px;
+    margin-left: 5px;
+    margin-top: 5px;
+    z-index: -1;
 }
 
 
