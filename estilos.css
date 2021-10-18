@@ -48,16 +48,16 @@ footer {
 }
 
 .fuenteMerienda {
-        font-family: "Merienda One";
-        text-align: left;
+        font-family:"Android 101";
+        text-align: center;
         font-style: normal;
-        font-size: large;
+        font-size: 150%;
         color: rgba(209, 136, 0, 0.87);
     }
 
 .fuenteRubik {
         font-family: "Rubik";
-        text-align: left;
+        text-align: center;
         font-style: normal;
         font-size: large;
         color: rgba(187, 122, 3, 0.87);
@@ -67,17 +67,24 @@ footer {
   width: 40%;
   padding-left: 30px;
   margin-left: 50px;
-  float: right;
+  padding-right: 30px;
+  margin-right: 50px;
+  float: center;
   font-style: "Merienda One";
   background-color: rgb(223, 37, 37);
 }
 
 .bside{
-    width: 50%;
-    float: left;
+    width: 75%;
+ padding-left: 30px;
+  margin-left: 50px;
+  padding-right: 30px;
+  margin-right: 50px;
+  float: center;
     font-style: "Merienda One";
  }
 
  .efectoimagen:hover {
      filter: saturate(250%);
+     border: rgb(158, 86, 3) 27px solid;
  }
