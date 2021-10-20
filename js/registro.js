@@ -1,37 +1,32 @@
-var registros = [];
+let arreglo = [];
 
 function almacenarRegistros(){
 
-    var usuario = document.getElementById("campoNombre").value;
-    var contrasena = document.getElementById("campoContrasena").value;
-    var correo = document.getElementById("campoCorreo").value;
-    var confcorreo = document.getElementById("campoConfirmacion").value;
-    var telefono = document.getElementById("campoTelefono").value;
-
-    var diccionario = {
-        "usuario":usuario,
-        "contrasena":contrasena,
-        "correo":correo,
-        "confcorreo":confcorreo,
-        "telefono":telefono
+    let objeto = {
+        "usuario":document.getElementById("campoNombre").value,
+        "contrasena":document.getElementById("campoContrasena").value,
+        "correo":document.getElementById("campoCorreo").value,
+        "confirmacioncorreo":document.getElementById("campoConfirmacionCorreo").value,
+        "telefono":document.getElementById("campoTelefono").value   
     }
 
-    if (registros.length<30){
-        registros.push(diccionario);
+    if (arreglo.length<30){
+        arreglo.push(objeto);
 
-        console.log("diccionario",diccionario);
-        console.log("arreglo",registros);
+        console.log("diccionario",objeto);
+        console.log("arreglo",arreglo);
         return true;
     }
-    console.log("arreglolleno",registros);
+    console.log("arreglolleno",arreglo);
     return false;
     
 }
 
-function ordenarRegistros(arreglo){
-    arreglo.sort();
-    return arreglo;
+function ordenarRegistros(args){
+    args.sort();
+    return args;
 }
 
-module.exports.almacenarRegistros = almacenarRegistros();
-module.exports.ordenarRegistros = ordenarRegistros();
+// module.exports.arreglo = arreglo;
+// module.exports.almacenarRegistros = almacenarRegistros;
+// module.exports.ordenarRegistros = ordenarRegistros;
